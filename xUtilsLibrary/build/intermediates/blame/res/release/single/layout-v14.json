@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\res\\merged\\release\\layout-v14\\abc_activity_chooser_view.xml",
+        "source": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout-v14\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\zhbj\\library\\build\\intermediates\\res\\merged\\release\\layout-v14\\abc_activity_chooser_view.xml",
+        "source": "D:\\Android\\workspace\\zhbj\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout-v14\\abc_activity_chooser_view.xml"
+    }
+]
