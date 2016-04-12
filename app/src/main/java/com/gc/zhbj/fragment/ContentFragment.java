@@ -65,7 +65,7 @@ public class ContentFragment extends BaseFragment {
                 switch (checkedId) {
                     case R.id.rb_home:
                         // mViewPager.setCurrentItem(0);// 设置当前页面
-                        vp_content.setCurrentItem(0, false);// 去掉切换页面的动画
+                        vp_content.setCurrentItem(0, false);// 去掉切换页面的动画(false:无切换动画)
                         break;
                     case R.id.rb_news:
                         vp_content.setCurrentItem(1, false);// 设置当前页面
@@ -86,25 +86,30 @@ public class ContentFragment extends BaseFragment {
             }
         });
 
+        /**
+         * 监听ViewPager滑动、改变监听
+         */
         vp_content.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
             @Override
-            public void onPageSelected(int arg0) {
-                mPagerList.get(arg0).initData();// 获取当前被选中的页面, 初始化该页面数据
-            }
-
-            @Override
-            public void onPageScrolled(int arg0, float arg1, int arg2) {
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
             }
 
             @Override
-            public void onPageScrollStateChanged(int arg0) {
+            public void onPageSelected(int position) {
+                // 获取当前被选中的页面, 初始化该页面数据
+                mPagerList.get(position).initData();
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
 
             }
         });
 
-        mPagerList.get(0).initData();// 初始化首页数据
+        // 初始化首页数据
+        mPagerList.get(0).initData();
 
     }
 

@@ -62,7 +62,7 @@ public class BasePager {
     }
 
     /**
-     * 初始化数据
+     * 初始化数据（子类根据实际情况选择是否覆写，在哪调用）
      */
     public void initData() {
 
@@ -79,8 +79,10 @@ public class BasePager {
         SlidingMenu slidingMenu = mainUi.getSlidingMenu();
 
         if (enable) {
+            //允许全屏滑动开启侧边栏
             slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
         } else {
+            //关闭侧边栏
             slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_NONE);
         }
     }

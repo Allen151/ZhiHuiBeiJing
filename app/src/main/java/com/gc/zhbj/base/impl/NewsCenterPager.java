@@ -23,10 +23,8 @@ public class NewsCenterPager extends BasePager {
     public void initData() {
         // 修改标题
         tv_title.setText("新闻中心");
-        // 隐藏菜单按钮
-        btn_menu.setVisibility(View.GONE);
-        //关闭侧边栏
-        setSlidingMenuEnable(false);
+        //开启侧边栏
+        setSlidingMenuEnable(true);
 
         TextView text = new TextView(mActivity);
         text.setText("新闻");
