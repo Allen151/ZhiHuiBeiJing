@@ -24,7 +24,7 @@ public class SettingPager extends BasePager {
 		tv_title.setText("设置");
 		// 隐藏菜单按钮
 		btn_menu.setVisibility(View.GONE);
-		//关闭侧边栏
+		//侧边栏不可用
 		setSlidingMenuEnable(false);
 
 		TextView text = new TextView(mActivity);

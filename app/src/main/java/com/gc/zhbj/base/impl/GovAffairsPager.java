@@ -23,7 +23,7 @@ public class GovAffairsPager extends BasePager {
     public void initData() {
         // 修改标题
         tv_title.setText("人口管理");
-        //开启侧边栏
+        //侧边栏可用
         setSlidingMenuEnable(true);
 
         TextView text = new TextView(mActivity);

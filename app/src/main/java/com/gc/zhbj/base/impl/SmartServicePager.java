@@ -23,7 +23,7 @@ public class SmartServicePager extends BasePager {
 	public void initData() {
 		// 修改标题
 		tv_title.setText("生活");
-		//开启侧边栏
+		//侧边栏可用
 		setSlidingMenuEnable(true);
 
 		TextView text = new TextView(mActivity);
