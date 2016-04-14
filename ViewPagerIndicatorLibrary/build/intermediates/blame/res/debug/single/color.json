@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text_holo.xml",
+        "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\color\\abc_search_url_text_holo.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\res\\color\\vpi__dark_theme.xml"
+    }
+]

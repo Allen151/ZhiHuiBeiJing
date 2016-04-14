@@ -144,12 +144,12 @@
         "source": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-xxhdpi\\abc_tab_selected_holo.9.png"
     },
     {
-        "merged": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_tab_selected_pressed_holo.9.png",
-        "source": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-xxhdpi\\abc_tab_selected_pressed_holo.9.png"
-    },
-    {
         "merged": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png",
         "source": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-xxhdpi\\abc_spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_tab_selected_pressed_holo.9.png",
+        "source": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-xxhdpi\\abc_tab_selected_pressed_holo.9.png"
     },
     {
         "merged": "D:\\Android\\workspace\\zhbj\\xUtilsLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_ab_back_holo_light.png",

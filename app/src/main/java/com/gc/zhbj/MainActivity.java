@@ -3,6 +3,7 @@ package com.gc.zhbj;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.os.Bundle;
+import android.view.Window;
 
 import com.gc.zhbj.fragment.ContentFragment;
 import com.gc.zhbj.fragment.LeftMenuFragment;
@@ -20,6 +21,10 @@ public class MainActivity extends SlidingFragmentActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //取消Activity头标题
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         setContentView(R.layout.activity_main);
 
         // 设置侧边栏

@@ -53,7 +53,7 @@ public class NewsCenterPager extends BasePager {
     private void getDataFromServer() {
         HttpUtils utils = new HttpUtils();
 
-        // 使用xutils发送请求(参数：1，请求方式，2，请求地址，3，请求结果回调)
+        // 使用xutils发送请求(参数：1，请求方式，2，请求地址，3，请求结果回调)，都是在主线程中调用
         utils.send(HttpRequest.HttpMethod.GET, GlobalContants.CATEGORIES_URL, new RequestCallBack<String>() {
 
             // 访问成功
@@ -94,7 +94,7 @@ public class NewsCenterPager extends BasePager {
 
         // 准备4个菜单详情页
         mPagers = new ArrayList<BaseMenuDetailPager>();
-        mPagers.add(new NewsMenuDetailPager(mActivity));
+        mPagers.add(new NewsMenuDetailPager(mActivity, mNewsData.data.get(0).children));
         mPagers.add(new TopicMenuDetailPager(mActivity));
         mPagers.add(new PhotoMenuDetailPager(mActivity));
         mPagers.add(new InteractMenuDetailPager(mActivity));
