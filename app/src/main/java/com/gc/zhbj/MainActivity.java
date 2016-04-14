@@ -3,6 +3,7 @@ package com.gc.zhbj;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.Window;
 
 import com.gc.zhbj.fragment.ContentFragment;
@@ -17,6 +18,7 @@ public class MainActivity extends SlidingFragmentActivity {
 
     private static final String FRAGMENT_LEFT_MENU = "fragment_left_menu";
     private static final String FRAGMENT_CONTENT = "fragment_content";
+    private int screen_width;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -33,8 +35,13 @@ public class MainActivity extends SlidingFragmentActivity {
         SlidingMenu slidingMenu = getSlidingMenu();
         // 设置全屏触摸
         slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+
         // 设置预留屏幕的宽度
-        slidingMenu.setBehindOffset(350);
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+        screen_width = dm.widthPixels;
+        int remainingScreen = screen_width * 2 / 3;
+        slidingMenu.setBehindOffset(remainingScreen);
 
         initFragment();
     }
