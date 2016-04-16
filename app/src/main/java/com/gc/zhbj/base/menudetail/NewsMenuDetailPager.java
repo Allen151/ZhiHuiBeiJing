@@ -1,23 +1,18 @@
 package com.gc.zhbj.base.menudetail;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
-import com.gc.zhbj.MainActivity;
+import com.gc.zhbj.activity.MainActivity;
 import com.gc.zhbj.R;
 import com.gc.zhbj.base.BaseMenuDetailPager;
 import com.gc.zhbj.base.newstabdetail.TabDetailPager;
 import com.gc.zhbj.bean.NewsData;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.viewpagerindicator.TabPageIndicator;
 
 import java.util.ArrayList;

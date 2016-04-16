@@ -1,10 +1,9 @@
-package com.gc.zhbj;
+package com.gc.zhbj.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
+import com.gc.zhbj.R;
 import com.gc.zhbj.Utils.PrefUtils;
 
 import java.util.ArrayList;

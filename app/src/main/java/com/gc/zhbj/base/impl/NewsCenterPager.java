@@ -4,7 +4,7 @@ package com.gc.zhbj.base.impl;
 import android.app.Activity;
 import android.widget.Toast;
 
-import com.gc.zhbj.MainActivity;
+import com.gc.zhbj.activity.MainActivity;
 import com.gc.zhbj.base.BaseMenuDetailPager;
 import com.gc.zhbj.base.BasePager;
 import com.gc.zhbj.base.menudetail.InteractMenuDetailPager;

@@ -4,12 +4,12 @@
         "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-xxhdpi\\abc_spinner_ab_default_holo_light.9.png"
     },
     {
-        "merged": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_cab_background_bottom_holo_light.9.png",
-        "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-xxhdpi\\abc_cab_background_bottom_holo_light.9.png"
-    },
-    {
         "merged": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png",
         "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-xxhdpi\\abc_spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_cab_background_bottom_holo_light.9.png",
+        "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-xxhdpi\\abc_cab_background_bottom_holo_light.9.png"
     },
     {
         "merged": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_holo_dark.png",

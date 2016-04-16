@@ -5787,7 +5787,7 @@
                     "startOffset": 63013,
                     "endLine": 780,
                     "endColumn": 12,
-                    "endOffset": 63661
+                    "endOffset": 63690
                 },
                 "from": {
                     "file": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
@@ -5797,7 +5797,7 @@
                         "startOffset": 6081,
                         "endLine": 76,
                         "endColumn": 12,
-                        "endOffset": 6729
+                        "endOffset": 6758
                     }
                 }
             }

@@ -100,6 +100,10 @@
         "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ic_cab_done_holo_dark.png"
     },
     {
+        "merged": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_text_indicator.xml",
+        "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\res\\drawable-mdpi\\vpi__tab_text_indicator.xml"
+    },
+    {
         "merged": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png",
         "source": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_spinner_ab_disabled_holo_light.9.png"
     },

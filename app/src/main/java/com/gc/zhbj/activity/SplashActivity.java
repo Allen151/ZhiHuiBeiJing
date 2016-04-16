@@ -1,8 +1,7 @@
-package com.gc.zhbj;
+package com.gc.zhbj.activity;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -11,6 +10,7 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.widget.RelativeLayout;
 
+import com.gc.zhbj.R;
 import com.gc.zhbj.Utils.PrefUtils;
 
 /**

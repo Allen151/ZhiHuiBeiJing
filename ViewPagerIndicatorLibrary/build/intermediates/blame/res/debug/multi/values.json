@@ -3774,10 +3774,10 @@
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 1616,
+                        "startOffset": 1645,
                         "endLine": 41,
                         "endColumn": 12,
-                        "endOffset": 1811
+                        "endOffset": 1840
                     }
                 }
             },
@@ -5773,10 +5773,10 @@
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
-                        "startOffset": 1817,
+                        "startOffset": 1846,
                         "endLine": 46,
                         "endColumn": 12,
-                        "endOffset": 2002
+                        "endOffset": 2031
                     }
                 }
             },
@@ -5787,7 +5787,7 @@
                     "startOffset": 63013,
                     "endLine": 780,
                     "endColumn": 12,
-                    "endOffset": 63661
+                    "endOffset": 63690
                 },
                 "from": {
                     "file": "D:\\Android\\workspace\\zhbj\\ViewPagerIndicatorLibrary\\res\\values\\vpi__styles.xml",
@@ -5797,7 +5797,7 @@
                         "startOffset": 962,
                         "endLine": 36,
                         "endColumn": 12,
-                        "endOffset": 1610
+                        "endOffset": 1639
                     }
                 }
             }

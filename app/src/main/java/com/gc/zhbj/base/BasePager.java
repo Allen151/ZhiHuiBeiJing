@@ -6,7 +6,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.gc.zhbj.MainActivity;
+import com.gc.zhbj.activity.MainActivity;
 import com.gc.zhbj.R;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 

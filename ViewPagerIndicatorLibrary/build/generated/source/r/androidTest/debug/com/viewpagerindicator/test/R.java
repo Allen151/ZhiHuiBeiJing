@@ -1112,9 +1112,10 @@ containing a value of this type.
         public static final int vpi__tab_selected_focused_holo=0x7f020059;
         public static final int vpi__tab_selected_holo=0x7f02005a;
         public static final int vpi__tab_selected_pressed_holo=0x7f02005b;
-        public static final int vpi__tab_unselected_focused_holo=0x7f02005c;
-        public static final int vpi__tab_unselected_holo=0x7f02005d;
-        public static final int vpi__tab_unselected_pressed_holo=0x7f02005e;
+        public static final int vpi__tab_text_indicator=0x7f02005c;
+        public static final int vpi__tab_unselected_focused_holo=0x7f02005d;
+        public static final int vpi__tab_unselected_holo=0x7f02005e;
+        public static final int vpi__tab_unselected_pressed_holo=0x7f02005f;
     }
     public static final class id {
         public static final int action_bar=0x7f0b0020;

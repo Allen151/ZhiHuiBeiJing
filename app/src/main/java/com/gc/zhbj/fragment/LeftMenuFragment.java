@@ -7,7 +7,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.gc.zhbj.MainActivity;
+import com.gc.zhbj.activity.MainActivity;
 import com.gc.zhbj.R;
 import com.gc.zhbj.base.impl.NewsCenterPager;
 import com.gc.zhbj.bean.NewsData;

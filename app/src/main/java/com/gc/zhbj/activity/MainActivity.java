@@ -1,4 +1,4 @@
-package com.gc.zhbj;
+package com.gc.zhbj.activity;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.Window;
 
+import com.gc.zhbj.R;
 import com.gc.zhbj.fragment.ContentFragment;
 import com.gc.zhbj.fragment.LeftMenuFragment;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
