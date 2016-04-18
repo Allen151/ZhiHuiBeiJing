@@ -28,6 +28,7 @@ dependencies {
     compile project(':SlidingMenuLibrary')
     compile project(':xUtilsLibrary')
     compile project(':ViewPagerIndicatorLibrary')
+    compile project(':OneKeyShare')
     compile files('libs/gson-2.3.1.jar')
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
