@@ -3,6 +3,7 @@ package com.gc.zhbj.base.impl;
 
 import android.app.Activity;
 import android.text.TextUtils;
+import android.view.View;
 import android.widget.Toast;
 
 import com.gc.zhbj.Utils.CacheUtils;
@@ -108,7 +109,7 @@ public class NewsCenterPager extends BasePager {
         mPagers = new ArrayList<BaseMenuDetailPager>();
         mPagers.add(new NewsMenuDetailPager(mActivity, mNewsData.data.get(0).children));
         mPagers.add(new TopicMenuDetailPager(mActivity));
-        mPagers.add(new PhotoMenuDetailPager(mActivity));
+        mPagers.add(new PhotoMenuDetailPager(mActivity, btn_photo_change));
         mPagers.add(new InteractMenuDetailPager(mActivity));
 
         // 设置菜单详情页-新闻为默认当前页
@@ -132,6 +133,13 @@ public class NewsCenterPager extends BasePager {
 
         // 初始化当前页面的数据
         baseMenuDetailPager.initData();
+
+        //是否显示组图按钮
+        if (baseMenuDetailPager instanceof PhotoMenuDetailPager) {
+            btn_photo_change.setVisibility(View.VISIBLE);
+        } else {
+            btn_photo_change.setVisibility(View.GONE);
+        }
     }
 
 
