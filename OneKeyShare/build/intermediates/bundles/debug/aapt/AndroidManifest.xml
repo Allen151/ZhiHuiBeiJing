@@ -15,9 +15,7 @@
         android:resizeable="true"
         android:smallScreens="true" />
 
-    <application
-        android:allowBackup="true"
-        android:debuggable="true" >
+    <application android:allowBackup="true" >
     </application>
 
 </manifest>

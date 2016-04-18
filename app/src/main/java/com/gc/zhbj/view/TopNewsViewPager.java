@@ -48,17 +48,20 @@ public class TopNewsViewPager extends ViewPager {
 					if (getCurrentItem() == 0) {
 						// 第一个页面, 需要父控件拦截
 						getParent().requestDisallowInterceptTouchEvent(false);
+						return false;
 					}
 				} else {
 					// 左划
 					if (getCurrentItem() == getAdapter().getCount() - 1) {
 						// 最后一个页面,需要父控件拦截
 						getParent().requestDisallowInterceptTouchEvent(false);
+						return false;
 					}
 				}
 			} else {
 				// 上下滑动,需要父控件拦截
 				getParent().requestDisallowInterceptTouchEvent(false);
+				return false;
 			}
 
 			break;

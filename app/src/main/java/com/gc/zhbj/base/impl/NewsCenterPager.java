@@ -2,8 +2,10 @@ package com.gc.zhbj.base.impl;
 
 
 import android.app.Activity;
+import android.text.TextUtils;
 import android.widget.Toast;
 
+import com.gc.zhbj.Utils.CacheUtils;
 import com.gc.zhbj.activity.MainActivity;
 import com.gc.zhbj.base.BaseMenuDetailPager;
 import com.gc.zhbj.base.BasePager;
@@ -44,6 +46,13 @@ public class NewsCenterPager extends BasePager {
         //侧边栏可用
         setSlidingMenuEnable(true);
 
+        //读取缓存
+        String cache = CacheUtils.getCache(GlobalContants.CATEGORIES_URL, mActivity);
+        if (!TextUtils.isEmpty(cache)) {
+            // 如果缓存存在,直接解析数据, 无需访问网路
+            parseData(cache);
+        }
+        // 不管有没有缓存, 都获取最新数据, 保证数据最新
         getDataFromServer();
     }
 
@@ -64,6 +73,9 @@ public class NewsCenterPager extends BasePager {
                 System.out.println("返回结果:" + result);
 
                 parseData(result);
+
+                // 设置缓存
+                CacheUtils.setCache(GlobalContants.CATEGORIES_URL, result, mActivity);
             }
 
             // 访问失败

@@ -216,12 +216,12 @@
         "source": "D:\\Android\\workspace\\zhbj\\MainLibs\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-hdpi\\abc_ic_voice_search_api_holo_light.png"
     },
     {
-        "merged": "D:\\Android\\workspace\\zhbj\\MainLibs\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ab_stacked_transparent_dark_holo.9.png",
-        "source": "D:\\Android\\workspace\\zhbj\\MainLibs\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-hdpi\\abc_ab_stacked_transparent_dark_holo.9.png"
-    },
-    {
         "merged": "D:\\Android\\workspace\\zhbj\\MainLibs\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
         "source": "D:\\Android\\workspace\\zhbj\\MainLibs\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\zhbj\\MainLibs\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ab_stacked_transparent_dark_holo.9.png",
+        "source": "D:\\Android\\workspace\\zhbj\\MainLibs\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-hdpi\\abc_ab_stacked_transparent_dark_holo.9.png"
     },
     {
         "merged": "D:\\Android\\workspace\\zhbj\\MainLibs\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
