@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.gc.zhbj.R;
+import com.gc.zhbj.Utils.DensityUtils;
 import com.gc.zhbj.Utils.PrefUtils;
 
 import java.util.ArrayList;
@@ -69,11 +70,11 @@ public class GuideActivity extends Activity {
             point.setBackgroundResource(R.drawable.shape_point_gray);
 
             //圆点图片宽高
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(15, 15);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(DensityUtils.dp2px(this, 10), DensityUtils.dp2px(this, 10));
 
             if (i > 0) {
                 // 设置圆点间隔
-                params.leftMargin = 15;
+                params.leftMargin = DensityUtils.dp2px(this,10);
             }
             // 设置圆点的大小
             point.setLayoutParams(params);
@@ -82,7 +83,7 @@ public class GuideActivity extends Activity {
         }
 
         //初始化引导页红点大小
-        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(15, 15);
+        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(DensityUtils.dp2px(this,10), DensityUtils.dp2px(this,10));
         v_point_red.setLayoutParams(params);
 
 
