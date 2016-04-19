@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.gc.zhbj.R;
 import com.gc.zhbj.Utils.CacheUtils;
+import com.gc.zhbj.Utils.bitmap.MyBitmapUtils;
 import com.gc.zhbj.base.BaseMenuDetailPager;
 import com.gc.zhbj.bean.PhotosData;
 import com.gc.zhbj.global.GlobalContants;
@@ -108,10 +109,12 @@ public class PhotoMenuDetailPager extends BaseMenuDetailPager {
 	}
 
 	class PhotoAdapter extends BaseAdapter {
+//		private MyBitmapUtils bitmapUtils;
 
 		private BitmapUtils bitmapUtils;
 
 		public PhotoAdapter() {
+//			myBitmapUtils = new MyBitmapUtils();
 			bitmapUtils = new BitmapUtils(mActivity);
 			bitmapUtils.configDefaultLoadingImage(R.drawable.news_pic_default);
 		}
